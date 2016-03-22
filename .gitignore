@@ -22,3 +22,7 @@ Makefile.in
 /.project
 /.cproject
 /*~
+/ar-lib
+/config.sub
+/config.guess
+/ltmain.sh
