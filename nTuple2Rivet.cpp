@@ -1,4 +1,4 @@
-#include "nTupleReader.h"
+#include "ntuplereader/nTupleReader.h"
 #include "Rivet/AnalysisHandler.hh"
 #include "Rivet/Tools/RivetPaths.hh"
 #include "Rivet/Tools/Logging.hh"
