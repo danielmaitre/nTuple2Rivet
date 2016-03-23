@@ -66,7 +66,7 @@ AS_IF([test "x$use_ntuplereader_path" == xtrue],
 	  NTUPLEREADER_CPPFLAGS=`${with_ntuplereader_path}/bin/nTupleReader-config --cppflags`
 	    AC_SUBST([NTUPLEREADER_CPPFLAGS], ["$NTUPLEREADER_CPPFLAGS"])
 	    
-	   AC_SUBST([NTUPLEREADER_LDFLAGS], ["`${with_ntuplereader_path/bin}/nTupleReader-config --libs`"])
+	   AC_SUBST([NTUPLEREADER_LDFLAGS], ["`${with_ntuplereader_path}/bin/nTupleReader-config --libs`"])
 	   AC_SUBST([NTUPLEREADER_LIBS], ["`${with_ntuplereader_path}/bin/nTupleReader-config --libs`"])
 	  ],
           [AC_SUBST([NTUPLEREADER_CXXFLAGS], [`nTupleReader-config --cxxflags`])
